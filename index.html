@@ -1,13 +1,172 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Landing Page for Math Logic Ebook</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raciocínio Lógico Matemático - Concurso da SEE-PB</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <h1>Raciocínio Lógico Matemático</h1>
+        <p>Ebook direto ao ponto para o Concurso SEE-PB</p>
+      </div>
+      <button class="cta-button" id="headerCta">Quero Me Preparar!</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Domine o Raciocínio Lógico Matemático e Conquiste Sua Vaga</h2>
+        <p>Material completo e objetivo para o Concurso da Secretaria de Educação da Paraíba</p>
+        <button class="cta-button" id="heroCta">Garantir Meu Ebook Agora</button>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Ebook Raciocínio Lógico Matemático">
+      </div>
+    </div>
+  </section>
+
+  <section class="topics" id="topics">
+    <div class="container">
+      <h2>O Que Você Vai Aprender</h2>
+      <div class="topics-grid">
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-sync-alt"></i></div>
+          <h3>Princípio da Regressão ou Reversão</h3>
+          <p>Técnicas práticas para resolver problemas de reversão em provas de concursos</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-brain"></i></div>
+          <h3>Lógica Dedutiva, Argumentativa e Quantitativa</h3>
+          <p>Métodos simplificados para dominar os três tipos principais de questões lógicas</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-sort-numeric-up"></i></div>
+          <h3>Sequências Lógicas</h3>
+          <p>Como identificar padrões em sequências de números, letras e figuras</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-shapes"></i></div>
+          <h3>Geometria e Álgebra Básicas</h3>
+          <p>Conceitos fundamentais aplicados às questões mais recorrentes</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-calendar-alt"></i></div>
+          <h3>Calendários e Sistemas Lineares</h3>
+          <p>Métodos rápidos para resolver questões envolvendo datas e equações</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-random"></i></div>
+          <h3>Análise Combinatória e Probabilidade</h3>
+          <p>Simplificação de conceitos complexos com aplicações práticas</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>PA, PG e Conjuntos</h3>
+          <p>Fórmulas e estratégias para resolver rapidamente estas questões</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="benefits">
+    <div class="container">
+      <h2>Por Que Este Ebook É Essencial</h2>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fas fa-book-open"></i></div>
+          <h3>Resumo Teórico Direto ao Ponto</h3>
+          <p>Conteúdo simplificado e objetivo, focado apenas no que realmente cai na prova, sem enrolação</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fas fa-tasks"></i></div>
+          <h3>Questões Práticas Comentadas</h3>
+          <p>Exercícios selecionados com resoluções detalhadas para fixar o aprendizado</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Conteúdo 100% Focado no Edital</h3>
+          <p>Material elaborado especificamente para o concurso da SEE-PB, sem conteúdo desnecessário</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <div class="container">
+      <div class="testimonial-content">
+        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+        <blockquote>
+          "Eu estava com muita dificuldade em Raciocínio Lógico e faltavam apenas 30 dias para a prova. Este ebook me ajudou a entender os conceitos de forma rápida e prática. Consegui acertar 80% das questões e passei no concurso!"
+        </blockquote>
+        <div class="testimonial-author">
+          <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Ana Paula Oliveira">
+          <div>
+            <h4>Ana Paula Oliveira</h4>
+            <p>Aprovada no último concurso da SEE-PB</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="purchase" id="purchase">
+    <div class="container">
+      <h2>Garanta Agora Seu Ebook</h2>
+      <div class="purchase-card">
+        <div class="price-tag">
+          <span class="original-price">R$ 97,00</span>
+          <span class="current-price">R$ 47,90</span>
+          <span class="discount">Desconto de 50% por tempo limitado!</span>
+        </div>
+        <ul class="purchase-benefits">
+          <li><i class="fas fa-check-circle"></i> Acesso imediato após a compra</li>
+          <li><i class="fas fa-check-circle"></i> Formato PDF otimizado para todos os dispositivos</li>
+          <li><i class="fas fa-check-circle"></i> Atualizações gratuitas conforme novos editais</li>
+          <li><i class="fas fa-check-circle"></i> Suporte por email para dúvidas</li>
+        </ul>
+        <a href="#" class="purchase-button">Baixar Agora por R$ 47,90</a>
+        <div class="payment-methods">
+          <p>Aceitamos:</p>
+          <div class="payment-icons">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-amex"></i>
+            <i class="fab fa-pix"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Raciocínio Lógico Matemático</h3>
+          <p>Ebook Completo para o Concurso SEE-PB</p>
+          <p>&copy; 2025 Todos os direitos reservados</p>
+        </div>
+        <div class="footer-contact">
+          <h4>Contato</h4>
+          <p><i class="fas fa-envelope"></i> contato@racioniologico.com.br</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
